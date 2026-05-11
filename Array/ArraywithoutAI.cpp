@@ -1,10 +1,14 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
 
 bool isSorted(vector<int>& arr) {
-    return is_sorted(arr.begin(), arr.end());
+    for (int i = 1; i < arr.size(); i++) {
+        if (arr[i - 1] > arr[i]) {
+            return false;
+        }
+    }
+    return true;
 }
 
 int main() {
