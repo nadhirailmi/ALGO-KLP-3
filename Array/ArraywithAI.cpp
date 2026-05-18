@@ -36,7 +36,6 @@ int main() {
     cout << "Output : " << (isSorted(arr1) ? "true" : "false") << endl;
     cout << "Explanation : The given array is sorted" << endl;
 
-    cout << endl;
 
     // Menampilkan hasil untuk array kedua
     cout << "Input  : {90, 80, 100, 70, 40, 30}" << endl;
