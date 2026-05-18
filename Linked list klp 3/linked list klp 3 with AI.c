@@ -88,7 +88,7 @@ int main(void) {
     satu->data  = 10;  satu->next  = dua;
     dua->data   = 20;  dua->next   = tiga;
     tiga->data  = 20;  tiga->next  = empat;
-    empat->data = 20;  empat->next = NULL;   /* ← tidak ada siklus */
+    empat->data = 20;  empat->next = satu;   /* ← tidak ada siklus */
 
     printf("=== Linked List Cycle II ===\n\n");
     printf("Linked list  : ");
