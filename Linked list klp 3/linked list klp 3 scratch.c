@@ -69,7 +69,7 @@ int main(void) {
     tiga->data=20;
     tiga->next=empat;
     empat->data=20;
-    empat->next=NULL;
+    empat->next=satu;
 
 
 
