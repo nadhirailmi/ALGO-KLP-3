@@ -28,7 +28,7 @@ int cari(struct ll  *head) {
 
 
             if (arr[j]==curr) {
-                printf("ada cycle pada linked list karena ada pengulangan alamat yaitu %d pada node   ke-%d kembali ke node ke-%d",curr,i,j);
+                printf("ada cycle pada linked list karena ada pengulangan alamat yaitu %d pada node   ke-%d kembali ke node ke-%d",curr,i-1,j);
                 return j;
             }
 
